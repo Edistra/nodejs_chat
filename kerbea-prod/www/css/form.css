@@ -1,0 +1,279 @@
+
+::-webkit-input-placeholder {color:#7a6a49;opacity:1;}
+/* Firefox 18- */ :-moz-placeholder {color:#7a6a49;opacity:1;}
+/* Firefox 19+ */ ::-moz-placeholder {color:#7a6a49;opacity:1;}
+:-ms-input-placeholder {color:#7a6a49;opacity:1;}
+
+.form_item{
+    margin:0 0 10px;
+}
+
+.form_item input[type="text"]{
+    color:#7a6a49;
+    background:#f1f2f2;
+    border:none;
+    font-size:14px;
+    height:50px;
+    line-height:50px;
+    padding:0 18px;
+    width:100%;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.form_item textarea{
+    color:#7a6a49;
+    background:#f1f2f2;
+    border:none;
+    font-size:14px;
+    padding:10px 18px;
+    width:100%;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#contact_form.page_contact .form_item.demi{
+    width: 465px;
+}
+
+@media screen and (max-width: 767px){    
+    #contact_form.page_contact .form_item.demi{
+        width: 100%;
+    }
+}
+
+.form_item.demi{
+    float:left;
+    width:340px;
+    margin-right:10px;
+}
+.form_item.demi.last{
+    margin-right:0;
+}
+
+.form_item select{
+    height:50px;
+    width:100%;
+}
+
+.form_item.submit{
+    float:right;
+    margin:20px 0 0;
+}
+.form_item.submit input{
+    cursor:pointer;
+    background: #ED1C24;
+    border:none;
+    color:#fff;
+    font-size:14px;
+    padding:14px 80px;
+    text-transform:uppercase;
+}
+
+.form_item .text{
+    color:#000;
+    font-size:14px;
+}
+#msg_err{
+    color:#8f3a3a;
+    display:none;
+    font-weight:bold;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    margin:14px 0;
+    padding:10px 0;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 767px) {
+    .form_item.demi{
+        float:left;
+        width: 340px !important;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+
+    .text{
+        font-size:12px;
+    }
+
+    .form_item{
+        margin:0 0 6px;
+    }
+    .form_item.demi{
+        float:none;
+        width:100%;
+    }
+
+    .form_item.submit{
+        float:left;
+        margin:10px 0 0;
+        width:100%;
+    }
+    .form_item.submit input{
+        cursor:pointer;
+        background:#ED1C24;
+        border:none;
+        color:#fff;
+        font-size:14px;
+        padding:14px;
+        width:100%;
+    }
+    .form_item select{
+        height:auto;
+        width:auto;
+        font-size:15px;
+    }
+}
+
+
+
+
+
+form.contact_std_form{
+    color:#1a171b;
+    width:540px;
+}
+form.contact_std_form .line_form{
+    position:relative;
+    line-height:35px;
+    margin:0 0 10px;
+}
+form.contact_std_form .line_form>label{
+    display:block;
+    float:left;
+    font-size:14px;
+    width:168px;
+}
+form.contact_std_form .line_form label.radio{
+    margin:0 20px 0 4px;
+    width:auto !important;
+}
+form.contact_std_form .line_form.textarea{
+    height:auto !important;
+}
+form.contact_std_form .line_form.textarea textarea{
+    height:100px;
+}
+
+form.contact_std_form .line_form input[type="text"],
+form.contact_std_form .line_form textarea{
+    border:1px solid #c5c5c5;
+    float:left;
+    padding:8px 4px;
+    width:362px;
+}
+form.contact_std_form .line_form input[type="radio"]{
+    margin:10px 0 0 0;
+}
+
+form.contact_std_form span.form_help{
+    font-style:italic;
+    font-size:11px;
+}
+form.contact_std_form .line_form input.obligatoire{
+    padding-right:46px !important;
+    width:320px !important;
+    background:url(../images/pictos/picto_obligatoire_black.png) no-repeat scroll 350px center #fff!important;
+}
+form.contact_std_form .error_parent input[type="text"],
+form.contact_std_form .error_parent textarea{
+    border:1px solid #bb3636; !important;
+}
+
+form.contact_std_form .line_form textarea.obligatoire{
+    background:url(../images/pictos/picto_obligatoire_black.png) no-repeat scroll 350px 96px #fff!important;
+}
+
+
+
+
+form.contact_std_form .line_form .error_area{
+    background:url(../images/pictos/picto_error_form.png) no-repeat scroll left center transparent;
+    position:absolute;
+    left:500px;
+    padding:0 0 0 8px;
+    bottom:0;
+    width:336px;
+    z-index:50;
+}
+form.contact_std_form .line_form .error_area label{
+    background:url(../images/pictos/picto_obligatoire_white.png) no-repeat scroll 10px center #000;
+    color:#fff;
+    display:block;
+    float:left;
+    height:35px;
+    line-height:35px;
+    padding:0 20px;
+}
+form.contact_std_form .line_form .star{
+    position:absolute;
+    right:14px;
+    top:15px;
+}
+form.contact_std_form .submit{
+    text-align:right;
+}
+form.contact_std_form .submit input[type="submit"]{
+    background:#fff;
+    color:#7a6a49;
+    border:1px solid #7a6a49;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:300;
+    padding:4px 10px;
+}
+.contact_form_error{
+    border-color:#000;
+    border-style:dotted;
+    border-width:1px 0;
+    font-size:14px;
+    font-weight:bold;
+    margin:0 0 16px;
+    padding:4px 0;
+}
+h3.title_form{
+    color:#000;
+    font-size:18px;
+    font-weight:300;
+    height:50px;
+    line-height:50px;
+    margin:0 0 10px;
+    text-transform:uppercase;
+}
+/* tablette */
+@media screen and (max-width: 999px) and (min-width: 767px){
+    .content .error_area{
+        display:none !important;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+    .content .error_area{
+        display:none !important;
+    }
+
+    form.contact_std_form,
+    form.contact_std_form .line_form>label,
+    form.contact_std_form .line_form input[type="text"],
+    form.contact_std_form .line_form textarea{
+
+        -webkit-box-sizing: border-box; /* Vieux Webkit */
+        -moz-box-sizing: border-box;    /* Vieux Firefox */
+        box-sizing: border-box;
+
+        width:100% !important;
+    }
+
+    form.contact_std_form .line_form input.obligatoire,
+    form.contact_std_form .line_form textarea.obligatoire{
+        background:none !important;
+    }
+}

@@ -1,0 +1,272 @@
+/*-------------------------------- CSS Document ----------------------------*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right !important;
+}
+
+.align_l {
+  text-align: left !important;
+}
+
+.align_c {
+  text-align: center !important;
+}
+
+.align_r {
+  text-align: right !important;
+}
+
+.justify {
+  text-align: justify !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.no_decoration {
+  text-decoration: none !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.lowercase {
+  text-transform: lowercase !important;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.small_fz {
+  font-size: 11px !important;
+}
+
+.no-height {
+  min-height: inherit !important;
+}
+
+.hide {
+  display: none;
+}
+
+/* ---------- Margin ---------- */
+
+.no_mrg {
+  margin: 0 !important;
+}
+
+.mrg_t_xxs {
+  margin-top: 1px !important;
+}
+
+.mrg_t_xs {
+  margin-top: 5px !important;
+}
+
+.mrg_t_s {
+  margin-top: 10px !important;
+}
+
+.mrg_t_m {
+  margin-top: 20px !important;
+}
+
+.mrg_t_m2 {
+  margin-top: 20px !important;
+}
+
+.mrg_t_l {
+  margin-top: 50px !important;
+}
+
+.mrg_t_xl {
+  margin-top: 80px !important;
+}
+
+.mrg_r_xs {
+  margin-right: 5px !important;
+}
+
+.mrg_r_s {
+  margin-right: 10px !important;
+}
+
+.mrg_r_m {
+  margin-right: 20px !important;
+}
+
+.mrg_b_xxs {
+  margin-bottom: 1px !important;
+}
+
+.mrg_b_s {
+  margin-bottom: 10px !important;
+}
+
+.mrg_b_m {
+  margin-bottom: 20px !important;
+}
+
+.mrg_b_l {
+  margin-bottom: 50px !important;
+}
+
+.mrg_b_xl {
+  margin-bottom: 70px !important;
+}
+
+.mrg_l_xs {
+  margin-left: 5px !important;
+}
+
+.mrg_l_s {
+  margin-left: 10px !important;
+}
+
+.mrg_l_m {
+  margin-left: 20px !important;
+}
+
+.mrg_l_l {
+  margin-left: 30px !important;
+}
+
+/* ---------- Padding ---------- */
+
+.no_pdg {
+  padding: 0 !important;
+}
+
+.pdg_s {
+  padding: 10px !important;
+}
+
+.pdg_m {
+  padding: 20px !important;
+}
+
+.pdg_t_m {
+  padding-top: 20px !important;
+}
+
+.pdg_t_s {
+  padding-top: 10px !important;
+}
+
+.pdg_t_xxl {
+  padding-top: 100px !important;
+}
+
+.pdg_l_s {
+  padding-left: 10px !important;
+}
+
+.pdg_r_s {
+  padding-right: 10px !important;
+}
+
+.pdg_r_m {
+  padding-right: 20px !important;
+}
+
+.pdg_b_s {
+  padding-bottom: 10px !important;
+}
+
+.pdg_b_m {
+  padding-bottom: 20px !important;
+}
+
+.pdg_b_xl {
+  padding-bottom: 50px !important;
+}
+
+.pdg_l_m {
+  padding-left: 20px !important;
+}
+
+.pdg_l_l {
+  padding-left: 30px !important;
+}
+
+/* ---------- Background ---------- */
+
+.gnl_back_transparent {
+  background-color: transparent !important;
+}
+
+.gnl_back_white {
+  background: #fff !important;
+}
+
+.gnl_back_red {
+  background: #ed1c24 !important;
+}
+
+.gnl_back_gray {
+  background: #787878 !important;
+}
+
+/* ---------- Color ---------- */
+
+.gnl_transparent {
+  color: transparent !important;
+}
+
+.gnl_white {
+  color: #fff !important;
+}
+
+.gnl_red {
+  color: #ed1c24 !important;
+}
+
+.gnl_gray {
+  color: #787878 !important;
+}
+
+/* ---------- effets ---------- */
+
+.gnl_shadow_white {
+  text-shadow: 1px 1px 0px #fff
+}
+
+.gnl_shadow_black {
+  text-shadow: 1px 1px 0px #000
+}
+
+.relative {
+  position: relative;
+}
+
+/* ---------- border ---------- */
+
+.no_bdr {
+  border: none !important;
+}
+
+.bdr_black {
+  border-bottom: solid 1px #000;
+  height: 0;
+}
+
+.bdr_with {
+  border-bottom: solid 1px #fff;
+  height: 0;
+}

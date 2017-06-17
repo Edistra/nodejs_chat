@@ -1,0 +1,37 @@
+/*-------------------------------- CSS Document -----------------------------*/
+
+
+html {
+	-webkit-text-size-adjust:none;
+}
+
+body {
+    background-color: #fff;
+    color: #141414;
+    font-family: 'Open Sans', 'trebuchet ms', sans-serif;
+    font-size: 14px;
+}
+strong{
+    font-weight: bold;
+}
+
+.line-hr{
+    border-bottom: 1px solid #e4e5e6;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------- COOKIE BAR -----------------------------*/
+
+#cookie-bar {background:#dcdcdc; height:24px; line-height:24px; color:#000; text-align:center; padding:10px 0;z-index: 999;}
+#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
+#cookie-bar.fixed.bottom {bottom:0; top:auto;}
+#cookie-bar p {margin:0; padding:0;}
+#cookie-bar a {color:#fff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
+#cookie-bar .cb-enable {background:#E30613;}
+#cookie-bar .cb-enable:hover {background: #c30000;}
+#cookie-bar .cb-disable {background:#E30613;}
+#cookie-bar .cb-disable:hover {background:#bb0000;}
+#cookie-bar .cb-policy {color:#000;}
+#cookie-bar .cb-policy:hover {}
